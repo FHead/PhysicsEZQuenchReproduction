@@ -6,7 +6,8 @@ Copy these **outputs**, not code, into `Input/`:
 - Task 2 `Output/PbPb_50000_seed12345.h5` and matching `.index.npz` → `Input/`.
 
 The tracked `Input/ATLAS_data_public.h5` is the unchanged experimental-data
-archive distributed with the public ez-Quench repository. Its covariance
+archive distributed as [ATLAS_data.h5 in the public ez-Quench repository](https://github.com/LLNL/ez-Quench/blob/main/h5/ATLAS_data.h5).
+Its covariance
 matrices are an external analysis input and a caveat to this reproduction.
 
 Run `python Task3-DeltaLossReproduction.py`. The script creates the accepted

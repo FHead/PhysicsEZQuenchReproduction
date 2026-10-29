@@ -10,7 +10,9 @@ without running MCMC.
 The loss is `a p^b ln(p)` with a flat prior `0<a<10`, `-1<b<10`.
 The pp spectrum comes from Task 1's copied output. The ten central 0–10%
 ATLAS `R_AA` points and covariance matrices come from the unchanged public
-`Input/ATLAS_data_public.h5` source (308 KB). This is **data provenance**, not
+`Input/ATLAS_data_public.h5` source (304 KiB), available as
+[ATLAS_data.h5 in the ez-Quench repository](https://github.com/LLNL/ez-Quench/blob/main/h5/ATLAS_data.h5).
+This is **data provenance**, not
 code reuse: the file contains covariance components not published in
 machine-readable ATLAS HEPData. The diagonal fit uses linear `R_AA` with
 `C_stat + diag(C_sys,total)`. The covariant fit uses log `R_AA` with
