@@ -1,0 +1,9 @@
+**/Output/
+**/Output-*/
+**/Input/pp_fit.json
+**/Input/PbPb_*.h5
+**/Input/PbPb_*.index.npz
+**/__pycache__/
+*.pyc
+.venv/
+.DS_Store
